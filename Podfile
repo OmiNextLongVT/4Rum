@@ -6,6 +6,8 @@ target '4Rum' do
   use_frameworks!
 pod "Texture"
 pod "Alamofire"
+pod "RxSwift"
+pod "RxCocoa"
   # Pods for 4Rum
 
 end

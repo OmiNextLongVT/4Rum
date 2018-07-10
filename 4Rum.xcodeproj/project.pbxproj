@@ -13,6 +13,21 @@
 		8356F80E20EF12A5001E71B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8356F80C20EF12A5001E71B1 /* Main.storyboard */; };
 		8356F81020EF12A8001E71B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8356F80F20EF12A8001E71B1 /* Assets.xcassets */; };
 		8356F81320EF12A8001E71B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8356F81120EF12A8001E71B1 /* LaunchScreen.storyboard */; };
+		83C4D94220F498F400912823 /* FollowingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C4D94120F498F400912823 /* FollowingViewController.swift */; };
+		83C4D94420F4992800912823 /* FollowingNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C4D94320F4992800912823 /* FollowingNavigator.swift */; };
+		83C4D94620F4993C00912823 /* HomeNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C4D94520F4993C00912823 /* HomeNavigator.swift */; };
+		83C4D94820F4994C00912823 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C4D94720F4994C00912823 /* HomeViewController.swift */; };
+		83C4D94A20F4996400912823 /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C4D94920F4996400912823 /* InboxViewController.swift */; };
+		83C4D94C20F4997400912823 /* InboxNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C4D94B20F4997400912823 /* InboxNavigator.swift */; };
+		83C4D94E20F4997F00912823 /* ProfileNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C4D94D20F4997F00912823 /* ProfileNavigator.swift */; };
+		83C4D95020F4998E00912823 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C4D94F20F4998E00912823 /* ProfileViewController.swift */; };
+		83C4D95220F4A00400912823 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C4D95120F4A00400912823 /* Application.swift */; };
+		83C4D95420F4A1F800912823 /* Tabbar.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C4D95320F4A1F800912823 /* Tabbar.xcassets */; };
+		83C4D95620F4A81600912823 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C4D95520F4A81600912823 /* UIColor+Extension.swift */; };
+		83C4D95820F4A84200912823 /* ColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C4D95720F4A84200912823 /* ColorScheme.swift */; };
+		83C4D95B20F4A97C00912823 /* AppNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C4D95A20F4A97C00912823 /* AppNavigationController.swift */; };
+		83C4D95D20F4A9D100912823 /* AppTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C4D95C20F4A9D100912823 /* AppTabBarController.swift */; };
+		83C4D96220F4AB2B00912823 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C4D96120F4AB2B00912823 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +40,21 @@
 		8356F80F20EF12A8001E71B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8356F81220EF12A8001E71B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8356F81420EF12A8001E71B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C4D94120F498F400912823 /* FollowingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingViewController.swift; sourceTree = "<group>"; };
+		83C4D94320F4992800912823 /* FollowingNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingNavigator.swift; sourceTree = "<group>"; };
+		83C4D94520F4993C00912823 /* HomeNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigator.swift; sourceTree = "<group>"; };
+		83C4D94720F4994C00912823 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		83C4D94920F4996400912823 /* InboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
+		83C4D94B20F4997400912823 /* InboxNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxNavigator.swift; sourceTree = "<group>"; };
+		83C4D94D20F4997F00912823 /* ProfileNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileNavigator.swift; sourceTree = "<group>"; };
+		83C4D94F20F4998E00912823 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		83C4D95120F4A00400912823 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		83C4D95320F4A1F800912823 /* Tabbar.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Tabbar.xcassets; sourceTree = "<group>"; };
+		83C4D95520F4A81600912823 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		83C4D95720F4A84200912823 /* ColorScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorScheme.swift; sourceTree = "<group>"; };
+		83C4D95A20F4A97C00912823 /* AppNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationController.swift; sourceTree = "<group>"; };
+		83C4D95C20F4A9D100912823 /* AppTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarController.swift; sourceTree = "<group>"; };
+		83C4D96120F4AB2B00912823 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		DA3FC006192B21920D8558D0 /* Pods_4Rum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_4Rum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -78,6 +108,10 @@
 		8356F80720EF12A5001E71B1 /* 4Rum */ = {
 			isa = PBXGroup;
 			children = (
+				83C4D93820F4961900912823 /* Domain */,
+				83C4D93720F495F400912823 /* Scenes */,
+				83C4D93620F490EB00912823 /* Common */,
+				83C4D93520F490DD00912823 /* Application */,
 				8356F80820EF12A5001E71B1 /* AppDelegate.swift */,
 				8356F80A20EF12A5001E71B1 /* ViewController.swift */,
 				8356F80C20EF12A5001E71B1 /* Main.storyboard */,
@@ -86,6 +120,97 @@
 				8356F81420EF12A8001E71B1 /* Info.plist */,
 			);
 			path = 4Rum;
+			sourceTree = "<group>";
+		};
+		83C4D93520F490DD00912823 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				83C4D95120F4A00400912823 /* Application.swift */,
+				83C4D95320F4A1F800912823 /* Tabbar.xcassets */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		83C4D93620F490EB00912823 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				83C4D96020F4AB1D00912823 /* Theme */,
+				83C4D95920F4A96800912823 /* Views */,
+				83C4D95520F4A81600912823 /* UIColor+Extension.swift */,
+				83C4D95720F4A84200912823 /* ColorScheme.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		83C4D93720F495F400912823 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				83C4D93A20F4982E00912823 /* Following */,
+				83C4D93920F4980900912823 /* Home */,
+				83C4D93B20F4983B00912823 /* Inbox */,
+				83C4D93C20F4985100912823 /* Profile */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		83C4D93820F4961900912823 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		83C4D93920F4980900912823 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				83C4D94520F4993C00912823 /* HomeNavigator.swift */,
+				83C4D94720F4994C00912823 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		83C4D93A20F4982E00912823 /* Following */ = {
+			isa = PBXGroup;
+			children = (
+				83C4D94320F4992800912823 /* FollowingNavigator.swift */,
+				83C4D94120F498F400912823 /* FollowingViewController.swift */,
+			);
+			path = Following;
+			sourceTree = "<group>";
+		};
+		83C4D93B20F4983B00912823 /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				83C4D94B20F4997400912823 /* InboxNavigator.swift */,
+				83C4D94920F4996400912823 /* InboxViewController.swift */,
+			);
+			path = Inbox;
+			sourceTree = "<group>";
+		};
+		83C4D93C20F4985100912823 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				83C4D94D20F4997F00912823 /* ProfileNavigator.swift */,
+				83C4D94F20F4998E00912823 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		83C4D95920F4A96800912823 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				83C4D95A20F4A97C00912823 /* AppNavigationController.swift */,
+				83C4D95C20F4A9D100912823 /* AppTabBarController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		83C4D96020F4AB1D00912823 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				83C4D96120F4AB2B00912823 /* Theme.swift */,
+			);
+			path = Theme;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +276,7 @@
 				8356F81320EF12A8001E71B1 /* LaunchScreen.storyboard in Resources */,
 				8356F81020EF12A8001E71B1 /* Assets.xcassets in Resources */,
 				8356F80E20EF12A5001E71B1 /* Main.storyboard in Resources */,
+				83C4D95420F4A1F800912823 /* Tabbar.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +294,8 @@
 				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
 				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
 				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -176,6 +304,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AsyncDisplayKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,8 +338,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83C4D94A20F4996400912823 /* InboxViewController.swift in Sources */,
+				83C4D95820F4A84200912823 /* ColorScheme.swift in Sources */,
 				8356F80B20EF12A5001E71B1 /* ViewController.swift in Sources */,
+				83C4D95D20F4A9D100912823 /* AppTabBarController.swift in Sources */,
+				83C4D95220F4A00400912823 /* Application.swift in Sources */,
+				83C4D95620F4A81600912823 /* UIColor+Extension.swift in Sources */,
+				83C4D95020F4998E00912823 /* ProfileViewController.swift in Sources */,
+				83C4D94C20F4997400912823 /* InboxNavigator.swift in Sources */,
+				83C4D95B20F4A97C00912823 /* AppNavigationController.swift in Sources */,
+				83C4D94E20F4997F00912823 /* ProfileNavigator.swift in Sources */,
+				83C4D94620F4993C00912823 /* HomeNavigator.swift in Sources */,
+				83C4D94220F498F400912823 /* FollowingViewController.swift in Sources */,
 				8356F80920EF12A5001E71B1 /* AppDelegate.swift in Sources */,
+				83C4D94420F4992800912823 /* FollowingNavigator.swift in Sources */,
+				83C4D94820F4994C00912823 /* HomeViewController.swift in Sources */,
+				83C4D96220F4AB2B00912823 /* Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
