@@ -13,6 +13,7 @@
 		8356F80E20EF12A5001E71B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8356F80C20EF12A5001E71B1 /* Main.storyboard */; };
 		8356F81020EF12A8001E71B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8356F80F20EF12A8001E71B1 /* Assets.xcassets */; };
 		8356F81320EF12A8001E71B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8356F81120EF12A8001E71B1 /* LaunchScreen.storyboard */; };
+		839E13E920F5FEB30043E6A0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 839E13E820F5FEB30043E6A0 /* GoogleService-Info.plist */; };
 		83C4D94220F498F400912823 /* FollowingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C4D94120F498F400912823 /* FollowingViewController.swift */; };
 		83C4D94420F4992800912823 /* FollowingNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C4D94320F4992800912823 /* FollowingNavigator.swift */; };
 		83C4D94620F4993C00912823 /* HomeNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C4D94520F4993C00912823 /* HomeNavigator.swift */; };
@@ -40,6 +41,7 @@
 		8356F80F20EF12A8001E71B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8356F81220EF12A8001E71B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8356F81420EF12A8001E71B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		839E13E820F5FEB30043E6A0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		83C4D94120F498F400912823 /* FollowingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingViewController.swift; sourceTree = "<group>"; };
 		83C4D94320F4992800912823 /* FollowingNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingNavigator.swift; sourceTree = "<group>"; };
 		83C4D94520F4993C00912823 /* HomeNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigator.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 		8356F80720EF12A5001E71B1 /* 4Rum */ = {
 			isa = PBXGroup;
 			children = (
+				839E13E820F5FEB30043E6A0 /* GoogleService-Info.plist */,
 				83C4D93820F4961900912823 /* Domain */,
 				83C4D93720F495F400912823 /* Scenes */,
 				83C4D93620F490EB00912823 /* Common */,
@@ -275,6 +278,7 @@
 			files = (
 				8356F81320EF12A8001E71B1 /* LaunchScreen.storyboard in Resources */,
 				8356F81020EF12A8001E71B1 /* Assets.xcassets in Resources */,
+				839E13E920F5FEB30043E6A0 /* GoogleService-Info.plist in Resources */,
 				8356F80E20EF12A5001E71B1 /* Main.storyboard in Resources */,
 				83C4D95420F4A1F800912823 /* Tabbar.xcassets in Resources */,
 			);
@@ -291,22 +295,26 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-4Rum/Pods-4Rum-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
 				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
 				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AsyncDisplayKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -504,7 +512,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mobile.-Rum";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobile.4Rum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -522,7 +530,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mobile.-Rum";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobile.4Rum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -8,6 +8,7 @@ pod "Texture"
 pod "Alamofire"
 pod "RxSwift"
 pod "RxCocoa"
+pod "Firebase/Core"
   # Pods for 4Rum
 
 end
