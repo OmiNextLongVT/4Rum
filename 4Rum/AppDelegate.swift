@@ -19,7 +19,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         //Firebase
         FirebaseApp.configure()
-        
         //Window
         let window = UIWindow(frame: UIScreen.main.bounds)
         Application.shared.configureMainScenes(in: window)
