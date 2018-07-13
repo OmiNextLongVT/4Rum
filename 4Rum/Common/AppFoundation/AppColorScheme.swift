@@ -14,6 +14,7 @@ enum Color {
     case border
     case shadow
     
+    case background
     case darkBackground
     case lightBackground
     case intermidiateBackground
@@ -41,6 +42,8 @@ enum Color {
             instanceColor = UIColor(hexString: "#1792F0")
         case .shadow:
             instanceColor = UIColor(hexString: "#cccccc")
+        case .background:
+            instanceColor = UIColor.white
         case .darkBackground:
             instanceColor = UIColor(hexString: "#999966")
         case .lightBackground:

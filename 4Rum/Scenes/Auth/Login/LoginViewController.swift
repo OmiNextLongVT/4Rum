@@ -10,5 +10,17 @@ import UIKit
 import AsyncDisplayKit
 
 class LoginViewController: BaseViewController {
+    var containerNode : LoginViewControllerNode!
+    
+    init() {
+        let container = LoginViewControllerNode()
+        super.init(node: container)
+        self.containerNode = container
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     
 }

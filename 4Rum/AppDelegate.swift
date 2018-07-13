@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         FirebaseApp.configure()
         //Window
         let window = UIWindow(frame: UIScreen.main.bounds)
-        Application.shared.configureMainScenes(in: window)
+        Application.shared.setLoginScene(in: window)
         self.window = window
         return true
     }

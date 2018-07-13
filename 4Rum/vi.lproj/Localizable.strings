@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  4Rum
+
+  Created by Ominext on 7/13/18.
+  Copyright © 2018 mobile. All rights reserved.
+*/
+//MARK: Login ============================================================================
+"email" = "Địa chỉ mail";
+"password" = "Mật khẩu";
+"login" = "Đăng nhập";
+"register" = "Tạo tài khoản mới";

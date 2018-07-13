@@ -49,4 +49,10 @@ final class Application {
         inboxNavigator.toInbox()
         profileNavigator.toProfile()
     }
+    
+    func setLoginScene(in window: UIWindow) {
+        let loginVC = LoginViewController()
+        let nav = AppNavigationController(rootViewController: loginVC)
+        window.rootViewController = nav
+    }
 }
