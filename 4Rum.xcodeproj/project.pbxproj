@@ -49,6 +49,9 @@
 		83C4D95B20F4A97C00912823 /* AppNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C4D95A20F4A97C00912823 /* AppNavigationController.swift */; };
 		83C4D95D20F4A9D100912823 /* AppTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C4D95C20F4A9D100912823 /* AppTabBarController.swift */; };
 		83C4D96220F4AB2B00912823 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C4D96120F4AB2B00912823 /* Theme.swift */; };
+		83E99E2620FC49680024C156 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E99E2520FC49680024C156 /* LoginViewModel.swift */; };
+		83E99E2C20FC561D0024C156 /* ASTextFieldNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 83E99E2A20FC561C0024C156 /* ASTextFieldNode.mm */; };
+		83E99E2D20FC561D0024C156 /* ASTextFieldView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 83E99E2B20FC561C0024C156 /* ASTextFieldView.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +103,12 @@
 		83C4D95A20F4A97C00912823 /* AppNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationController.swift; sourceTree = "<group>"; };
 		83C4D95C20F4A9D100912823 /* AppTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarController.swift; sourceTree = "<group>"; };
 		83C4D96120F4AB2B00912823 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		83E99E2520FC49680024C156 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		83E99E2820FC561C0024C156 /* ASTextFieldNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASTextFieldNode.h; sourceTree = "<group>"; };
+		83E99E2920FC561C0024C156 /* ASTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASTextFieldView.h; sourceTree = "<group>"; };
+		83E99E2A20FC561C0024C156 /* ASTextFieldNode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ASTextFieldNode.mm; sourceTree = "<group>"; };
+		83E99E2B20FC561C0024C156 /* ASTextFieldView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ASTextFieldView.mm; sourceTree = "<group>"; };
+		83E99E3720FC6E5F0024C156 /* 4Rum-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "4Rum-Bridging-Header.h"; sourceTree = "<group>"; };
 		DA3FC006192B21920D8558D0 /* Pods_4Rum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_4Rum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -186,6 +195,7 @@
 				8356F81120EF12A8001E71B1 /* LaunchScreen.storyboard */,
 				8356F81420EF12A8001E71B1 /* Info.plist */,
 				839E13E820F5FEB30043E6A0 /* GoogleService-Info.plist */,
+				83E99E3720FC6E5F0024C156 /* 4Rum-Bridging-Header.h */,
 			);
 			path = 4Rum;
 			sourceTree = "<group>";
@@ -216,6 +226,7 @@
 				83BF1A0620F6F40900F2DFF9 /* LoginViewController.swift */,
 				83BF1A0820F6F52100F2DFF9 /* LoginViewControllerNode.swift */,
 				8350BE4820F85006002C7FF1 /* Login.xcassets */,
+				83E99E2520FC49680024C156 /* LoginViewModel.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -336,6 +347,7 @@
 		83C4D95920F4A96800912823 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				83E99E2720FC561C0024C156 /* TextField */,
 				83C4D95A20F4A97C00912823 /* AppNavigationController.swift */,
 				83C4D95C20F4A9D100912823 /* AppTabBarController.swift */,
 				83BF1A0420F6F3BF00F2DFF9 /* BaseViewController.swift */,
@@ -349,6 +361,17 @@
 				83C4D96120F4AB2B00912823 /* Theme.swift */,
 			);
 			path = Theme;
+			sourceTree = "<group>";
+		};
+		83E99E2720FC561C0024C156 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				83E99E2820FC561C0024C156 /* ASTextFieldNode.h */,
+				83E99E2920FC561C0024C156 /* ASTextFieldView.h */,
+				83E99E2A20FC561C0024C156 /* ASTextFieldNode.mm */,
+				83E99E2B20FC561C0024C156 /* ASTextFieldView.mm */,
+			);
+			path = TextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -495,6 +518,7 @@
 				83BF1A0720F6F40900F2DFF9 /* LoginViewController.swift in Sources */,
 				83BF1A1F20F6FC5500F2DFF9 /* Logger.swift in Sources */,
 				8356F80B20EF12A5001E71B1 /* ViewController.swift in Sources */,
+				83E99E2D20FC561D0024C156 /* ASTextFieldView.mm in Sources */,
 				83C4D95D20F4A9D100912823 /* AppTabBarController.swift in Sources */,
 				83C4D95220F4A00400912823 /* Application.swift in Sources */,
 				8350BE4520F84AA7002C7FF1 /* String+Extension.swift in Sources */,
@@ -510,7 +534,9 @@
 				83BF19FE20F6F2BB00F2DFF9 /* ErrorTracker.swift in Sources */,
 				8356F80920EF12A5001E71B1 /* AppDelegate.swift in Sources */,
 				83C4D94420F4992800912823 /* FollowingNavigator.swift in Sources */,
+				83E99E2620FC49680024C156 /* LoginViewModel.swift in Sources */,
 				83BF1A0020F6F2BB00F2DFF9 /* ActivityIndicator.swift in Sources */,
+				83E99E2C20FC561D0024C156 /* ASTextFieldNode.mm in Sources */,
 				83BF19FF20F6F2BB00F2DFF9 /* Observable+Ext.swift in Sources */,
 				83C4D94820F4994C00912823 /* HomeViewController.swift in Sources */,
 				83BF1A1B20F6F8AF00F2DFF9 /* AppFont.swift in Sources */,
@@ -610,6 +636,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "./4Rum/4Rum-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -664,6 +691,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "./4Rum/4Rum-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};

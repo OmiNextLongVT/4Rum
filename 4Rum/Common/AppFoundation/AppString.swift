@@ -10,6 +10,7 @@ import UIKit
 
 struct Text {
     enum TextType {
+        case Logo
         case Header
         case Title
         case SubTitle
@@ -28,6 +29,9 @@ struct Text {
     var instance : NSAttributedString {
         let font : UIFont!
         switch self.type {
+        case .Logo:
+            font = Font(.installed(.RobotoBold),
+                        size: .custom(32)).instance
         case .Header:
             font = Font(.installed(.RobotoBold),
                         size: .standard(.h1)).instance

@@ -9,10 +9,13 @@
 import UIKit
 
 enum Color {
+    case white
     
     case theme
     case border
     case shadow
+    
+    case deviderGray
     
     case background
     case darkBackground
@@ -36,12 +39,16 @@ enum Color {
         var instanceColor = UIColor.clear
         
         switch self {
+        case .white:
+            instanceColor = UIColor.white
         case .border:
             instanceColor = UIColor(hexString: "#333333")
         case .theme:
             instanceColor = UIColor(hexString: "#1792F0")
         case .shadow:
             instanceColor = UIColor(hexString: "#cccccc")
+        case .deviderGray:
+            instanceColor = UIColor(hexString: "#C6CBD4")
         case .background:
             instanceColor = UIColor.white
         case .darkBackground:
