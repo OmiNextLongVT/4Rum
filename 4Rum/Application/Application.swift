@@ -53,6 +53,9 @@ final class Application {
     func setLoginScene(in window: UIWindow) {
         let loginVC = LoginViewController()
         let nav = AppNavigationController(rootViewController: loginVC)
+        let loginNavigator = DefaultLoginNavigator(navigationController: nav)
+        let loginViewModel = LoginViewModel(navigator: loginNavigator)
+        loginVC.viewModel = loginViewModel
         window.rootViewController = nav
     }
 }

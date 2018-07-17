@@ -17,6 +17,12 @@
 		8356F81020EF12A8001E71B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8356F80F20EF12A8001E71B1 /* Assets.xcassets */; };
 		8356F81320EF12A8001E71B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8356F81120EF12A8001E71B1 /* LaunchScreen.storyboard */; };
 		839E13E920F5FEB30043E6A0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 839E13E820F5FEB30043E6A0 /* GoogleService-Info.plist */; };
+		83B75D8820FD9D7600ADB8D9 /* ASButtonNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B75D8720FD9D7600ADB8D9 /* ASButtonNode+Rx.swift */; };
+		83B75D8A20FD9EDE00ADB8D9 /* ASControlNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B75D8920FD9EDE00ADB8D9 /* ASControlNode+Rx.swift */; };
+		83B75D8C20FD9FD200ADB8D9 /* ASControlTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B75D8B20FD9FD200ADB8D9 /* ASControlTarget.swift */; };
+		83B75D8E20FDB23800ADB8D9 /* RxAsTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B75D8D20FDB23800ADB8D9 /* RxAsTarget.swift */; };
+		83B75D9020FDB41B00ADB8D9 /* LoginNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B75D8F20FDB41B00ADB8D9 /* LoginNavigator.swift */; };
+		83B75D9320FDB46100ADB8D9 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B75D9220FDB46100ADB8D9 /* RegisterViewController.swift */; };
 		83BF19FD20F6F2BB00F2DFF9 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF19F920F6F2BB00F2DFF9 /* Reusable.swift */; };
 		83BF19FE20F6F2BB00F2DFF9 /* ErrorTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF19FA20F6F2BB00F2DFF9 /* ErrorTracker.swift */; };
 		83BF19FF20F6F2BB00F2DFF9 /* Observable+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF19FB20F6F2BB00F2DFF9 /* Observable+Ext.swift */; };
@@ -71,6 +77,12 @@
 		8356F81220EF12A8001E71B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8356F81420EF12A8001E71B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		839E13E820F5FEB30043E6A0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		83B75D8720FD9D7600ADB8D9 /* ASButtonNode+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ASButtonNode+Rx.swift"; sourceTree = "<group>"; };
+		83B75D8920FD9EDE00ADB8D9 /* ASControlNode+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ASControlNode+Rx.swift"; sourceTree = "<group>"; };
+		83B75D8B20FD9FD200ADB8D9 /* ASControlTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASControlTarget.swift; sourceTree = "<group>"; };
+		83B75D8D20FDB23800ADB8D9 /* RxAsTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxAsTarget.swift; sourceTree = "<group>"; };
+		83B75D8F20FDB41B00ADB8D9 /* LoginNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNavigator.swift; sourceTree = "<group>"; };
+		83B75D9220FDB46100ADB8D9 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		83BF19F920F6F2BB00F2DFF9 /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
 		83BF19FA20F6F2BB00F2DFF9 /* ErrorTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorTracker.swift; sourceTree = "<group>"; };
 		83BF19FB20F6F2BB00F2DFF9 /* Observable+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Ext.swift"; sourceTree = "<group>"; };
@@ -200,9 +212,29 @@
 			path = 4Rum;
 			sourceTree = "<group>";
 		};
+		83B75D8620FD9D5300ADB8D9 /* Texture+Rx */ = {
+			isa = PBXGroup;
+			children = (
+				83B75D8720FD9D7600ADB8D9 /* ASButtonNode+Rx.swift */,
+				83B75D8920FD9EDE00ADB8D9 /* ASControlNode+Rx.swift */,
+				83B75D8B20FD9FD200ADB8D9 /* ASControlTarget.swift */,
+				83B75D8D20FDB23800ADB8D9 /* RxAsTarget.swift */,
+			);
+			path = "Texture+Rx";
+			sourceTree = "<group>";
+		};
+		83B75D9120FDB45800ADB8D9 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				83B75D9220FDB46100ADB8D9 /* RegisterViewController.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
 		83BF19F720F6EE6B00F2DFF9 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				83B75D9120FDB45800ADB8D9 /* Register */,
 				83BF1A0320F6F39700F2DFF9 /* Login */,
 			);
 			path = Auth;
@@ -223,9 +255,10 @@
 		83BF1A0320F6F39700F2DFF9 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				8350BE4820F85006002C7FF1 /* Login.xcassets */,
+				83B75D8F20FDB41B00ADB8D9 /* LoginNavigator.swift */,
 				83BF1A0620F6F40900F2DFF9 /* LoginViewController.swift */,
 				83BF1A0820F6F52100F2DFF9 /* LoginViewControllerNode.swift */,
-				8350BE4820F85006002C7FF1 /* Login.xcassets */,
 				83E99E2520FC49680024C156 /* LoginViewModel.swift */,
 			);
 			path = Login;
@@ -280,6 +313,7 @@
 		83C4D93620F490EB00912823 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				83B75D8620FD9D5300ADB8D9 /* Texture+Rx */,
 				8350BE4720F84AC4002C7FF1 /* AppFoundation */,
 				8350BE4620F84AAF002C7FF1 /* Extension */,
 				83BF19F820F6F2A300F2DFF9 /* Utlity */,
@@ -515,6 +549,7 @@
 				83BF19FD20F6F2BB00F2DFF9 /* Reusable.swift in Sources */,
 				83C4D94A20F4996400912823 /* InboxViewController.swift in Sources */,
 				83C4D95820F4A84200912823 /* AppColorScheme.swift in Sources */,
+				83B75D9020FDB41B00ADB8D9 /* LoginNavigator.swift in Sources */,
 				83BF1A0720F6F40900F2DFF9 /* LoginViewController.swift in Sources */,
 				83BF1A1F20F6FC5500F2DFF9 /* Logger.swift in Sources */,
 				8356F80B20EF12A5001E71B1 /* ViewController.swift in Sources */,
@@ -526,11 +561,14 @@
 				83C4D95020F4998E00912823 /* ProfileViewController.swift in Sources */,
 				83C4D94C20F4997400912823 /* InboxNavigator.swift in Sources */,
 				83C4D95B20F4A97C00912823 /* AppNavigationController.swift in Sources */,
+				83B75D8C20FD9FD200ADB8D9 /* ASControlTarget.swift in Sources */,
+				83B75D9320FDB46100ADB8D9 /* RegisterViewController.swift in Sources */,
 				83C4D94E20F4997F00912823 /* ProfileNavigator.swift in Sources */,
 				83C4D94620F4993C00912823 /* HomeNavigator.swift in Sources */,
 				83C4D94220F498F400912823 /* FollowingViewController.swift in Sources */,
 				83BF1A1D20F6FA7A00F2DFF9 /* AppString.swift in Sources */,
 				83BF1A0520F6F3BF00F2DFF9 /* BaseViewController.swift in Sources */,
+				83B75D8E20FDB23800ADB8D9 /* RxAsTarget.swift in Sources */,
 				83BF19FE20F6F2BB00F2DFF9 /* ErrorTracker.swift in Sources */,
 				8356F80920EF12A5001E71B1 /* AppDelegate.swift in Sources */,
 				83C4D94420F4992800912823 /* FollowingNavigator.swift in Sources */,
@@ -539,6 +577,8 @@
 				83E99E2C20FC561D0024C156 /* ASTextFieldNode.mm in Sources */,
 				83BF19FF20F6F2BB00F2DFF9 /* Observable+Ext.swift in Sources */,
 				83C4D94820F4994C00912823 /* HomeViewController.swift in Sources */,
+				83B75D8A20FD9EDE00ADB8D9 /* ASControlNode+Rx.swift in Sources */,
+				83B75D8820FD9D7600ADB8D9 /* ASButtonNode+Rx.swift in Sources */,
 				83BF1A1B20F6F8AF00F2DFF9 /* AppFont.swift in Sources */,
 				83C4D96220F4AB2B00912823 /* Theme.swift in Sources */,
 				83BF1A0920F6F52200F2DFF9 /* LoginViewControllerNode.swift in Sources */,
