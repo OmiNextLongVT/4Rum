@@ -8,6 +8,12 @@
 
 import UIKit
 
-class RegisterViewModel: NSObject {
+final class RegisterViewModel: ViewModelType {
+    struct Input {
+        
+    }
     
+    struct Output {
+        
+    }
 }

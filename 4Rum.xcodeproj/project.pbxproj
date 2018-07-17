@@ -232,10 +232,10 @@
 		83B75D9120FDB45800ADB8D9 /* Register */ = {
 			isa = PBXGroup;
 			children = (
+				83B75D9820FDDFF700ADB8D9 /* RegisterNavigator.swift */,
 				83B75D9220FDB46100ADB8D9 /* RegisterViewController.swift */,
 				83B75D9420FDCDDB00ADB8D9 /* RegisterViewControllerNode.swift */,
 				83B75D9620FDDFDA00ADB8D9 /* RegisterViewModel.swift */,
-				83B75D9820FDDFF700ADB8D9 /* RegisterNavigator.swift */,
 			);
 			path = Register;
 			sourceTree = "<group>";
