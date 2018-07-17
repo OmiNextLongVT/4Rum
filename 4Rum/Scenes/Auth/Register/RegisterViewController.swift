@@ -12,5 +12,15 @@ import RxSwift
 import RxCocoa
 
 class RegisterViewController: BaseViewController {
-
+    
+    var containerNode : RegisterViewControllerNode!
+    init() {
+        let container = RegisterViewControllerNode()
+        super.init(node: container)
+        self.containerNode = container
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 }

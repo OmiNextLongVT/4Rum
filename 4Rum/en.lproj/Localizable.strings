@@ -8,5 +8,6 @@
 //MARK: Login ============================================================================
 "email" = "Email";
 "password" = "Password";
+"confirm_password" = "Confirm password";
 "login" = "Login";
 "register" = "Create new account";

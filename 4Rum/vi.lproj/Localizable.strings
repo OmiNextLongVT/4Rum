@@ -8,5 +8,6 @@
 //MARK: Login ============================================================================
 "email" = "Địa chỉ mail";
 "password" = "Mật khẩu";
+"confirm_password" = "Nhập lại mật khẩu";
 "login" = "Đăng nhập";
 "register" = "Tạo tài khoản mới";

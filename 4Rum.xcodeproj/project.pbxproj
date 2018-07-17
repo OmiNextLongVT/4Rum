@@ -23,6 +23,9 @@
 		83B75D8E20FDB23800ADB8D9 /* RxAsTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B75D8D20FDB23800ADB8D9 /* RxAsTarget.swift */; };
 		83B75D9020FDB41B00ADB8D9 /* LoginNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B75D8F20FDB41B00ADB8D9 /* LoginNavigator.swift */; };
 		83B75D9320FDB46100ADB8D9 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B75D9220FDB46100ADB8D9 /* RegisterViewController.swift */; };
+		83B75D9520FDCDDB00ADB8D9 /* RegisterViewControllerNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B75D9420FDCDDB00ADB8D9 /* RegisterViewControllerNode.swift */; };
+		83B75D9720FDDFDA00ADB8D9 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B75D9620FDDFDA00ADB8D9 /* RegisterViewModel.swift */; };
+		83B75D9920FDDFF700ADB8D9 /* RegisterNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B75D9820FDDFF700ADB8D9 /* RegisterNavigator.swift */; };
 		83BF19FD20F6F2BB00F2DFF9 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF19F920F6F2BB00F2DFF9 /* Reusable.swift */; };
 		83BF19FE20F6F2BB00F2DFF9 /* ErrorTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF19FA20F6F2BB00F2DFF9 /* ErrorTracker.swift */; };
 		83BF19FF20F6F2BB00F2DFF9 /* Observable+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF19FB20F6F2BB00F2DFF9 /* Observable+Ext.swift */; };
@@ -83,6 +86,9 @@
 		83B75D8D20FDB23800ADB8D9 /* RxAsTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxAsTarget.swift; sourceTree = "<group>"; };
 		83B75D8F20FDB41B00ADB8D9 /* LoginNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNavigator.swift; sourceTree = "<group>"; };
 		83B75D9220FDB46100ADB8D9 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		83B75D9420FDCDDB00ADB8D9 /* RegisterViewControllerNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewControllerNode.swift; sourceTree = "<group>"; };
+		83B75D9620FDDFDA00ADB8D9 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		83B75D9820FDDFF700ADB8D9 /* RegisterNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterNavigator.swift; sourceTree = "<group>"; };
 		83BF19F920F6F2BB00F2DFF9 /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
 		83BF19FA20F6F2BB00F2DFF9 /* ErrorTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorTracker.swift; sourceTree = "<group>"; };
 		83BF19FB20F6F2BB00F2DFF9 /* Observable+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Ext.swift"; sourceTree = "<group>"; };
@@ -227,6 +233,9 @@
 			isa = PBXGroup;
 			children = (
 				83B75D9220FDB46100ADB8D9 /* RegisterViewController.swift */,
+				83B75D9420FDCDDB00ADB8D9 /* RegisterViewControllerNode.swift */,
+				83B75D9620FDDFDA00ADB8D9 /* RegisterViewModel.swift */,
+				83B75D9820FDDFF700ADB8D9 /* RegisterNavigator.swift */,
 			);
 			path = Register;
 			sourceTree = "<group>";
@@ -556,6 +565,8 @@
 				83E99E2D20FC561D0024C156 /* ASTextFieldView.mm in Sources */,
 				83C4D95D20F4A9D100912823 /* AppTabBarController.swift in Sources */,
 				83C4D95220F4A00400912823 /* Application.swift in Sources */,
+				83B75D9920FDDFF700ADB8D9 /* RegisterNavigator.swift in Sources */,
+				83B75D9520FDCDDB00ADB8D9 /* RegisterViewControllerNode.swift in Sources */,
 				8350BE4520F84AA7002C7FF1 /* String+Extension.swift in Sources */,
 				83C4D95620F4A81600912823 /* UIColor+Extension.swift in Sources */,
 				83C4D95020F4998E00912823 /* ProfileViewController.swift in Sources */,
@@ -579,6 +590,7 @@
 				83C4D94820F4994C00912823 /* HomeViewController.swift in Sources */,
 				83B75D8A20FD9EDE00ADB8D9 /* ASControlNode+Rx.swift in Sources */,
 				83B75D8820FD9D7600ADB8D9 /* ASButtonNode+Rx.swift in Sources */,
+				83B75D9720FDDFDA00ADB8D9 /* RegisterViewModel.swift in Sources */,
 				83BF1A1B20F6F8AF00F2DFF9 /* AppFont.swift in Sources */,
 				83C4D96220F4AB2B00912823 /* Theme.swift in Sources */,
 				83BF1A0920F6F52200F2DFF9 /* LoginViewControllerNode.swift in Sources */,
